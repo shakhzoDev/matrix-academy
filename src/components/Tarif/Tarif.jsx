@@ -124,7 +124,7 @@ const Tarif = () => {
                       </ul>
                     </div>
                     <div className="card-black-box">
-                      <p>
+                      <p className="card-black-box-p">
                         Joy qoldi: <span>300</span>dan <span>75</span>
                       </p>
                       <button onClick={toggleModal} className="card-info-btn">
@@ -243,7 +243,7 @@ const Tarif = () => {
                       </ul>
                     </div>
                     <div className="card-black-box">
-                      <p>
+                      <p className="card-black-box-p">
                         Joy qoldi: <span>200</span>dan <span>35</span>
                       </p>
                       <button onClick={toggleModal} className="card-info-btn">
@@ -377,7 +377,7 @@ const Tarif = () => {
                       </ul>
                     </div>
                     <div className="card-black-box">
-                      <p>
+                      <p className="card-black-box-p">
                         Joy qoldi: <span>300</span>dan <span>75</span>
                       </p>
                       <button onClick={toggleModal} className="card-info-btn">

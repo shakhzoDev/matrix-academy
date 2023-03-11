@@ -233,17 +233,18 @@
   text-align: center;
   background: #2b2b2b;
   border-radius: 0px 0px 11px 11px;
-  p {
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    color: #ffffff;
 
     span {
       font-weight: 700;
     }
-  }
+  
+}
+.card-black-box-p{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
 }
 .card-info-btn {
   padding: 14px 68px;

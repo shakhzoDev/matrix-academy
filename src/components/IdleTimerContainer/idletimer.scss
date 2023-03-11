@@ -49,6 +49,8 @@
 }
 
 .modal-mid {
+  margin-top: 0;
+  text-align: start;
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
@@ -161,6 +163,7 @@ border-radius: 34px;
     color: #00DB65;
 }
 .modal-title-savol{
+  margin: 0;
   font-weight: 700;
 font-size: 30px;
 line-height: 37px;
@@ -195,13 +198,13 @@ background-clip: text;
 }
 @media only screen and (min-width: 700px){
   .modal{
-    padding-bottom: 68px;
+    padding-bottom: 28px;
   }
   .modal-box{
-    padding-top: 200px;
+    padding-top: 150px;
   }
 .modal-title{
-  margin-top: 49px;
+  margin-top: 29px;
   font-weight: 700;
   font-size: 50px;
   line-height: 61px;
@@ -210,14 +213,14 @@ background-clip: text;
   font-weight: 500;
   font-size: 15px;
   line-height: 18px;
-  margin-bottom: 48px;
+  margin-bottom: 28px;
 }
 .modal-btn{
   padding: 16px 58px;
   font-weight: 700;
   font-size: 15px;
   line-height: 18px;
-  margin-bottom: 54px;
+  margin-bottom: 34px;
 }
 .modal-txarea{
   padding:50px 100px;
