@@ -26,7 +26,7 @@ const Hero = () => {
               hisoblanadi.
             </p>
             <div className="whodevelopers-btn">
-              <a href="#">ilk qadam qo’yish</a>
+              <a href="#qadam">ilk qadam qo’yish</a>
               <img src={heroRight} alt=". . . . " />
             </div>
           </div>

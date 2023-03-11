@@ -24,7 +24,7 @@ const phoneNumRef  = useRef()
     evt.preventDefault()
     console.log(phoneNumRef);
 
-    axios.post( 'http://167.71.9.83:8080/v1/applications',
+    axios.post( 'https://matrix-academy.uz/v1/applications',
    {
         "fullName": `${nameRef.current.value}`,
         "phoneNumber": `${phoneNumRef.current.value}`

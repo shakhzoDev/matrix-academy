@@ -48,8 +48,12 @@
 .info-item {
   padding-top: 18px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  .details{
+    list-style: none;
+  }
 }
 .info-item-wrap {
+  list-style: none;
   display: flex;
   justify-content: space-between;
 }

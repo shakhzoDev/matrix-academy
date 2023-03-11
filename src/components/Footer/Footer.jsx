@@ -16,7 +16,7 @@ const Footer = () => {
     evt.preventDefault()
     console.log(phoneNumRef);
 
-    axios.post( 'http://167.71.9.83:8080/v1/applications',
+    axios.post( 'https://matrix-academy.uz/v1/applications',
    {
         "fullName": `${nameRef.current.value}`,
         "phoneNumber": `${phoneNumRef.current.value}`
@@ -29,7 +29,7 @@ const Footer = () => {
     <footer className="ft-main">
       <div className="container">
         <div className="ft-wrap">
-          <form className="ft-form"  action="" method="post" autoComplete="off" onSubmit={(evt) => handleSubmit(evt)}>
+          <form id="footer" className="ft-form"  action="" method="post" autoComplete="off" onSubmit={(evt) => handleSubmit(evt)}>
             <p className="ft-text">
               Formani to’ldiring, muxaxassislardan BEPUL konsultatsiya oling va
               Chegirmaga ega bo’ling

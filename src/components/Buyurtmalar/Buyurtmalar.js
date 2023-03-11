@@ -72,7 +72,7 @@ export const Buyurtmalar = () => {
 const [fdata, setFData] = useState([]);
 
 useEffect(() => {
-   axios.get("http://167.71.9.83:8080/v1/applications-by-filter").then(data => {
+   axios.get("https://matrix-academy.uz/v1/applications-by-filter").then(data => {
 	console.log(data);
 	setFData(data.data)
   });

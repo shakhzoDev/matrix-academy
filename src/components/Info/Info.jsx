@@ -19,7 +19,7 @@ const questionRef = useRef();
     evt.preventDefault()
     console.log(questionRef.current.value);
 
-    axios.post('http://167.71.9.83:8080/v1/questions',
+    axios.post('https://matrix-academy.uz/v1/questions',
    {
         "fullName": `${nameRef.current.value}`,
         "phoneNumber": `${phoneNumRef.current.value}`,

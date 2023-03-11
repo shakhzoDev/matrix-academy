@@ -28,7 +28,7 @@ const Tarif = () => {
     evt.preventDefault()
     console.log(phoneNumRef);
 
-    axios.post( 'http://167.71.9.83:8080/v1/applications',
+    axios.post( 'https://matrix-academy.uz/v1/applications',
    {
         "fullName": `${nameRef.current.value}`,
         "phoneNumber": `${phoneNumRef.current.value}`
@@ -42,7 +42,7 @@ const Tarif = () => {
   }
 
   return (
-    <div className="tarif" id="tarif">
+    <div className="tarif" id="#qadam">
       <div className="container">
         <div className="tarif-wrap">
           <div className="tarif-text-box">

@@ -47,7 +47,7 @@ const WhoDevelopers = () => {
               </li>
             </ul>
             <div className="whodevelopers-btn">
-              <a href="#">IT mutaxassikni egallash</a>
+              <a href="#footer">IT mutaxassikni egallash</a>
               <img src={heroRight} alt=". . . . " />
             </div>
           </div>

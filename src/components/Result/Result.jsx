@@ -119,41 +119,9 @@ const Result = () => {
               </div>
             </div>
             <div className="whodevelopers-btn">
-              <a href="#button" onClick={toggleModal}>xoziroq kursga yozilaman</a>
+              <a href="#footer">xoziroq kursga yozilaman</a>
               <img src={heroRight} alt=". . . . " />
-              {showModal && (
-                <div className="modal-box">
-         <div className="modal">
-         <div className="modal-top">
-           <button className="modal-top-btn" onClick={() => setShowModal(false)}>
-             <img src={CloseModal} alt="Downloading . . ." />
-           </button>
-         </div>
-         <h3 className="modal-mid">Kursga yozilish</h3>
-         <h3 className="modal-title">Foundation</h3>
-         <p className="modal-desc">DASTURLASH KURSI</p>
-         <form className="modal-form">
-           <input
-             type="text"
-             placeholder="Ism Familiya"
-             className="modal-int"
-           />
-           <input
-             type="text"
-             placeholder="Telefon raqam"
-             className="modal-int"
-           />
-           <button className="modal-btn">kursga yozilaman</button>
-         </form>
-         <label htmlFor="mo-id" className="modal-b">
-           <input id="mo-id" type="checkbox" />
-           <p className="modal-bottom">
-             Shaxsiy ma'lumotlarimni qayta ishlashga roziman
-           </p>
-         </label>
-       </div>
-                </div>
-      )}
+        
             </div>
           </div>
         </div>
