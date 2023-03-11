@@ -1,0 +1,85 @@
+.course-about-wrapper {
+  padding-top: 50px;
+  padding-bottom: 53px;
+
+  h3 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.course-about-title {
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 98px;
+  background: linear-gradient(91.44deg, #00b654 0.54%, #007a38 99.51%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.course-about-text {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  color: #000000;
+}
+
+@media only screen and (max-width: 700px) {
+  .course-about-title {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    background: linear-gradient(91.44deg, #00B654 0.54%, #007A38 99.51%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .course-about-wrapper {
+    h3 {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      color: #000000;
+      margin-bottom: 30px;
+    }
+
+    .course-about-text {
+      font-size: 16px;
+      line-height: 28px;
+    }
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1024px) {
+  .course-about-title {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 46px;
+    background: linear-gradient(91.44deg, #00B654 0.54%, #007A38 99.51%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .course-about-wrapper {
+    h3 {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 17px;
+      color: #000000;
+    }
+
+    .course-about-text {
+      font-size: 16px;
+      line-height: 28px;
+    }
+  }
+}

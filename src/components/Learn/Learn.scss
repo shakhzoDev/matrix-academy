@@ -1,0 +1,128 @@
+.learn {
+  padding-top: 58px;
+}
+
+.learn__course {
+  text-align: center;
+}
+
+.learn__text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #000;
+  margin-top: 28px;
+}
+
+.learn__item:nth-child(1)::before {
+  background-image: none;
+  background-repeat: no-repeat;
+  background-image: url("../../assets/images/computer.svg");
+  width: 151px;
+  display: inline-block;
+  height: 92px;
+  content: "";
+}
+
+.learn__item:nth-child(2)::before {
+  background-image: none;
+  background-repeat: no-repeat;
+  background-image: url("../../assets/images/c-language.svg");
+  width: 85px;
+  height: 92px;
+  display: inline-block;
+  content: "";
+}
+
+.learn__item:nth-child(3)::before {
+  background-image: none;
+  background-repeat: no-repeat;
+  background-image: url("../../assets/images/python.svg");
+  width: 95px;
+  height: 92px;
+  display: inline-block;
+  content: "";
+}
+
+.learn__item-list:nth-child(1)::before {
+  background-image: none;
+  background-repeat: no-repeat;
+  background-image: url("../../assets/images/python-django.svg");
+  width: 95px;
+  height: 92px;
+  display: inline-block;
+  content: "";
+}
+
+.learn__item-list:nth-child(2)::before {
+  background-image: none;
+  background-repeat: no-repeat;
+  background-image: url("../../assets/images/sql.svg");
+  width: 95px;
+  height: 92px;
+  display: inline-block;
+  content: "";
+}
+
+.courses__title {
+  background: linear-gradient(91.44deg, #00DB65 0.54%, #007A38 99.51%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.courses__text {
+  text-align: center;
+}
+
+.learn__items-list {
+  text-align: center;
+}
+
+.learn__items-list::before {
+  background-image: url("../../assets/images/github.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  content: "";
+  display: inline-block;
+  width: 189px;
+  height: 106px;
+  margin-bottom: 25px;
+}
+
+.learn__item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+@media only screen and (min-width:1024px) {
+  .learn__course {
+    text-align: left;
+  }
+
+  .learn__course-text {
+    text-align: left;
+  }
+
+  .learn__text {
+    text-align: left;
+    margin-top: 51px;
+  }
+
+  .courses__title {
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 98px;
+    background: linear-gradient(91.44deg, #00DB65 0.54%, #007A38 99.51%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+
+}

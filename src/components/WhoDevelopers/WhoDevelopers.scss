@@ -1,0 +1,99 @@
+.whodevelopers {
+  background-image: url("../../assets/images/backrgound.svg");
+  background-color: #101510;
+  padding: 56px 0;
+  padding-top: 70px;
+  color: #fff;
+}
+
+.whodevelopers-title {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 50px;
+  color: #08CB63;
+  margin: 0;
+  padding: 0;
+}
+
+.who-developers-desc {
+  color: #fff;
+}
+
+.whodevelopers-text {
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.whodevelopers-item {
+  margin-bottom: 40px;
+}
+
+.developer {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #FFFFFF;
+  padding-bottom: 40px;
+}
+
+.whodevelopers-btn {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-top: 63px;
+
+  a {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #00D965;
+    margin-right: 30px;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .whodevelopers-title {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 98px;
+    background: linear-gradient(90.67deg, #08CB63 29.84%, #00FF76 107.54%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .whodevelopers-title {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 98px;
+    background: linear-gradient(90.67deg, #08CB63 29.84%, #00FF76 107.54%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+
+  .developer {
+    text-align: center;
+  }
+
+  .whodevelopers-text {
+    max-width: 1243px;
+    width: 100%;
+  }
+
+  .whodevelopers-item {
+    max-width: 290px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .whodeveloper-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

@@ -1,0 +1,160 @@
+.student {
+  background-image: url("../../assets/images/backrgound.svg");
+  background-color: #101510;
+  color: #fff;
+  margin-top: 100px;
+  padding-bottom: 100px;
+}
+
+.student-wrapper {
+  padding-top: 53px;
+}
+
+.student-title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 50px;
+  background: linear-gradient(90.67deg, #08cb63 29.84%, #00ff76 107.54%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.student-text {
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.st-num-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.st-num-item {
+  max-width: 325px;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.st-num-img {
+  margin-bottom: 5px;
+  width: 130px;
+  height: 98px;
+}
+
+.st-num-title {
+  margin: 0;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+}
+
+.st-num-text {
+  padding-top: 10px;
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+.student-bottom-wrap {
+  margin-top: 161px;
+}
+
+.st-list {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.st-item {
+  margin-top: 14px;
+  margin-right: 15px;
+  padding: 30px;
+  max-width: 484px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.st-item-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.st-item-img {
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+  background: #d9d9d9;
+  opacity: 0.5;
+}
+
+.st-item-text-box {
+  padding-left: 13px;
+}
+
+.st-item-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.st-item-age {
+  margin: 0;
+  padding-top: 7px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.st-item-desc {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+@media only screen and (min-width: 545px) {
+  .student-title {
+    font-size: 50px;
+    line-height: 70px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .student-wrapper{
+    padding-top: 153px;
+  }
+  .student-title {
+    font-size: 60px;
+    line-height: 73px;
+  }
+
+  .disf {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .st-num-item {
+    margin-top: 80px;
+  }
+
+  .st-item {
+    margin-top: 43px;
+  }
+}

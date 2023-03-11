@@ -1,0 +1,246 @@
+.result-title {
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.res-tit {
+  font-weight: 700;
+  background: linear-gradient(91.44deg, #00DB65 0.54%, #007A38 99.51%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.result-main {
+  background: #FFFFFF;
+  box-shadow: 0px 27.2181px 21.4604px 6.80452px rgba(0, 0, 0, 0.05);
+  border-radius: 5.75767px;
+  padding: 18px 21px;
+  width: 246.91px;
+  height: 232.42px;
+
+  img {
+    width: 203.43px;
+    height: 114.81px;
+    margin-top: 11px;
+  }
+
+}
+
+.result-box-title {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #1B8CDE;
+}
+
+.result-box-text {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #000000;
+}
+
+.result-box-main {
+  width: 223.96px;
+  height: 135.27px;
+  background: #FFFFFF;
+  box-shadow: 0px 33.1791px 26.1604px 8.29478px rgba(0, 0, 0, 0.05);
+  border-radius: 7.01866px;
+  padding: 24px;
+}
+
+.result-box-main-3 {
+  width: 212.46px;
+  height: 102.3px;
+  background: #FFFFFF;
+  box-shadow: 0px 33.1791px 26.1604px 8.29478px rgba(0, 0, 0, 0.05);
+  border-radius: 7.01866px;
+  padding: 10px;
+  margin-top: 45px;
+}
+
+.result-box-2 {
+  margin-top: 49px;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+
+.result-Teacher {
+  width: 94.43px;
+  height: 94.43px;
+}
+
+.voise-message {
+  width: 139.1px;
+  height: 14.68px;
+}
+
+.voise-message-box {
+  display: flex;
+  align-items: center;
+}
+
+.btn-span {
+  font-weight: 400;
+  font-size: 8.47438px;
+  line-height: 10px;
+  color: #A9A9A9;
+  padding-top: 3px;
+}
+
+.btn-strategy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-voise {
+  background-color: transparent;
+  border: none;
+}
+
+.btn-voise img {
+  width: 30.27px;
+  height: 30.27px;
+}
+
+@media only screen and (max-width: 360px) {
+
+  .result-Student,
+  .result-Teacher {
+    display: none;
+  }
+}
+
+.result-box {
+  display: flex;
+  align-items: end;
+}
+
+.result-box-3 {
+  display: flex;
+  align-items: end;
+}
+
+.widthr {
+  width: 212.46px;
+  height: 102.3px;
+}
+
+@media only screen and (min-width: 360px) {
+
+  .result-Student,
+  .result-Teacher {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .result-title {
+    font-weight: 500;
+    font-size: 33px;
+  }
+
+  .result-box-main {
+    width: 351px;
+    height: 212px;
+  }
+
+  .result-box-main-3 {
+    width: 351px;
+    height: 169px;
+    padding: 24px;
+  }
+
+  .result-main {
+    width: 343px;
+    height: 317px;
+    padding: 39px;
+  }
+
+  .result-box-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .btn-voise img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .voise-message-box {
+    margin-top: 27px;
+  }
+
+  .voise-message {
+    width: 218px;
+    height: 23px;
+  }
+
+  .result-Teacher {
+    margin-left: 28px;
+  }
+
+  .result-box-text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+
+    img {
+      width: 245px;
+      height: 125px;
+    }
+  }
+
+}
+
+.result-Student {
+  width: 100px;
+  height: 100px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .result-title {
+    font-weight: 500;
+    font-size: 40px;
+  }
+
+  .result-box-main {
+    width: 351px;
+    height: 212px;
+  }
+
+  .result-main {
+    width: 443px;
+    height: 417px;
+    padding: 39px;
+
+    .result-box-title {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 22px;
+    }
+
+    .result-box-text {
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 18px;
+    }
+
+    img {
+      width: 365px;
+      height: 206px;
+      margin-top: 23px;
+    }
+  }
+
+  .result-Student {
+    width: 148px;
+    height: 148px;
+    margin-right: 28px;
+  }
+}

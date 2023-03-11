@@ -1,0 +1,320 @@
+.tarif {
+  margin-top: 50px;
+}
+.tarif-wrap {
+}
+.tarif-text-box {
+}
+.tarif-title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 50px;
+  background: linear-gradient(91.44deg, #00b654 0.54%, #007a38 99.51%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.tarif-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+.tarif-step {
+  margin-top: 50px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 43px;
+  color: #000000;
+}
+.tarif-list {
+}
+.tarif-item {
+  margin: 0 auto;
+  max-width: 224px;
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+}
+.tarif-num {
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 98px;
+  letter-spacing: 0.07em;
+  background: linear-gradient(118.87deg, #00d864 16.87%, #007c39 96.37%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.tarif-num-text {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000000;
+}
+.tarif-second-wrap {
+  margin-top: 150px;
+}
+.second-text-box {
+  text-align: center;
+}
+.second-title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 43px;
+  color: #000000;
+}
+.second-title-text {
+}
+.tarif-card-list {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.tarif-card-item {
+  position: relative;
+  margin-top: 50px;
+  max-width: 369px;
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 0px 27px 1px rgba(0, 0, 0, 0.05);
+  border-radius: 11px;
+
+  &:nth-child(2) {
+    background: linear-gradient(170.89deg, #52ce00 0.63%, #00d864 99.12%);
+    box-shadow: 0px 0px 27px 1px rgba(0, 0, 0, 0.05);
+
+    .card-price {
+      color: #ffffff;
+    }
+    .card-cost {
+      color: #ffffff;
+    }
+    .card-text {
+      color: #000000;
+    }
+
+    .card-open-btn {
+      background: linear-gradient(118.87deg, #fff 16.87%, #fff 96.37%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .card-info-item::before {
+      background-image: url("../../assets/images/white-check.svg");
+      flex-shrink: 0;
+    }
+  }
+
+  &:nth-child(3) {
+    background: #2b2b2b;
+    box-shadow: 0px 0px 27px 1px rgba(0, 0, 0, 0.05);
+
+    .card-tarif-title {
+      color: #ffffff;
+    }
+    .card-tarif {
+      color: #ffffff;
+    }
+    .card-price {
+      color: #ffffff;
+    }
+    .card-cost {
+      color: #ffffff;
+    }
+    .card-text {
+      color: #ffffff;
+    }
+
+    .card-info-item {
+      color: #fff;
+    }
+
+    .card-info-item::before {
+      background-image: url("../../assets/images/black-check.svg");
+      flex-shrink: 0;
+    }
+    .card-black-box {
+      box-shadow: 0px 0px 33px rgba(242, 242, 242, 0.2);
+    }
+  }
+}
+.tr-card-wrap {
+}
+.card-text-box {
+  padding: 40px;
+}
+.top-t-box {
+}
+.card-tarif-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+.card-tarif {
+  padding-left: 5px;
+}
+.bottom-t-box {
+  padding-top: 20px;
+  display: flex;
+}
+.card-price {
+  margin: 0;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  color: #000000;
+}
+.card-cost {
+  margin-top: 28px;
+}
+.card-btn-wrap {
+}
+.card-text {
+  margin: 0;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #6b6b6b;
+}
+.card-open-btn {
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  border: none;
+  background: linear-gradient(118.87deg, #00d864 16.87%, #007c39 96.37%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.open-box {
+  border-top: 1px solid #d9d9d9;
+  max-width: 306px;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+.card-info-list {
+  padding-left: 20px;
+  padding-top: 26px;
+  padding-bottom: 20px;
+}
+.card-info-item {
+  padding-bottom: 24px;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+  opacity: 0.8;
+}
+.card-info-item::before {
+  background-image: url("../../assets/images/check-green.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+.card-black-box {
+  padding-top: 38px;
+  padding-bottom: 50px;
+  text-align: center;
+  background: #2b2b2b;
+  border-radius: 0px 0px 11px 11px;
+  p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #ffffff;
+
+    span {
+      font-weight: 700;
+    }
+  }
+}
+.card-info-btn {
+  padding: 14px 68px;
+  background: linear-gradient(135.86deg, #51ce00 1.45%, #0dd654 100%);
+  border-radius: 28px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+}
+.card-sale {
+  position: absolute;
+  top: -30px;
+  right: 50px;
+  width: 68px;
+  height: 68px;
+  background: #2b2b2b;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 20px;
+}
+.card-sale-green{
+  background: linear-gradient(135.86deg, #51CE00 1.45%, #0DD654 100%);
+  position: absolute;
+  top: -30px;
+  right: 50px;
+  width: 68px;
+  height: 68px;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 20px;
+}
+
+@media only screen and (min-width: 545px) {
+  .tarif-title {
+    font-size: 50px;
+    line-height: 70px;
+  }
+}
+@media only screen and (min-width: 650px) {
+  .tarif{
+    margin-top: 150px;
+  }
+  .tarif-list {
+    display: flex;
+    justify-content: space-around;
+  }
+  .tarif-card-item{
+    &:nth-child(2){
+      margin-left: 26px;
+      margin-right: 26px;
+    }
+  }
+}
+@media only screen and (min-width: 1000px) {
+
+  .tarif-title {
+    font-size: 80px;
+    line-height: 98px;
+  }
+  .tarif-second-wrap {
+    margin-top: 200px;
+  }
+}

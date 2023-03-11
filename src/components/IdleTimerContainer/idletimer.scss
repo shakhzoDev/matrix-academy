@@ -1,0 +1,238 @@
+.overflow {
+  overflow: hidden;
+}
+
+.modal-box{
+    padding-top: 20px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color:#fff;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4);
+
+}
+.modal {
+
+    background-color:#fff;
+    max-width: 540px;
+  width: 100%;
+  height: auto;
+  padding: 0 58px;
+  padding-top: 0px;
+  padding-bottom: 18px;
+  border-radius:15px;
+}
+
+.modal-top {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+
+  img {
+    cursor: pointer;
+    margin-right: -20px;
+  }
+}
+
+.modal-top-btn {
+  margin-top: 20px;
+  background-color: transparent;
+  border: none;
+}
+
+.modal-mid {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #242424;
+}
+
+.modal-title {
+  margin-bottom: 0;
+  margin-top: 0;
+  font-weight: 600;
+  font-size: 37px;
+  line-height: 47px;
+  text-align: center;
+  background: linear-gradient(91.44deg, #00DB65 0.54%, #007A38 99.51%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.modal-title-new{
+    margin-bottom: 0;
+  margin-top: 49px;
+    font-weight: 700;
+font-size: 30px;
+line-height: 37px;
+text-align: center;
+background: linear-gradient(91.44deg, #00DB65 0.54%, #007A38 99.51%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+
+.modal-desc {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+.modal-desc-new{
+    font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 27px; 
+}
+
+.modal-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-int {
+  max-width: 255px;
+  width: 100%;
+  height: 50px;
+  border: none;
+  border: 1px solid #000000;
+  border-radius: 34px;
+  padding: 20px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.modal-txarea{
+    margin-bottom: 34px;
+    padding:25px 45px;
+    border: 1px solid #000000;
+border-radius: 34px;
+}
+.modal-btn {
+  padding: 16px 58px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #FFFFFF;
+  background: linear-gradient(92.2deg, #00DB65 0%, #007A38 100%);
+  border-radius: 34px;
+  border: none;
+  margin-bottom: 16px;
+}
+
+.modal-b {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+.modal-green{
+    color: #00DB65;
+}
+.modal-title-savol{
+  font-weight: 700;
+font-size: 30px;
+line-height: 37px;
+text-align: center;
+background: linear-gradient(91.44deg, #00DB65 0.54%, #007A38 99.51%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+#mo-id {
+  margin-right: 15px;
+}
+.success-title{
+  margin: 0;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 42px;
+  text-align: center;
+  background: linear-gradient(91.44deg, #00DB65 0.54%, #007A38 99.51%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.success-text{
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+@media only screen and (min-width: 700px){
+  .modal{
+    padding-bottom: 68px;
+  }
+  .modal-box{
+    padding-top: 200px;
+  }
+.modal-title{
+  margin-top: 49px;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+}
+.modal-desc{
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  margin-bottom: 48px;
+}
+.modal-btn{
+  padding: 16px 58px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  margin-bottom: 54px;
+}
+.modal-txarea{
+  padding:50px 100px;
+}
+.success-title{
+  margin-top: 49px;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+}
+.success-text{
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  margin-bottom: 48px;
+}
+}
+

@@ -1,0 +1,135 @@
+.ft-main {
+  background: #000000;
+}
+
+.ft-wrap {
+  padding-top: 55px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ft-form {
+  text-align: center;
+  max-width: 423px;
+  width: 100%;
+}
+
+.ft-text {
+  margin: 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.ft-first-in {
+  margin-top: 27px;
+  max-width: 423px;
+  width: 100%;
+  height: 38px;
+  background: #111111;
+  border: 0.742597px solid #828282;
+  border-radius: 11.139px;
+  color: #fff;
+  padding: 0 10px;
+}
+
+.ft-second-in {
+  margin-top: 32px;
+  max-width: 423px;
+  width: 100%;
+  height: 38px;
+  background: #111111;
+  border: 0.742597px solid #828282;
+  border-radius: 11.139px;
+  color: #fff;
+  padding: 0 10px;
+}
+
+.ft-btn {
+  font-weight: 600;
+  font-size: 13.3667px;
+  line-height: 16px;
+  color: #000000;
+  margin-top: 20px;
+  padding: 11px 0;
+  max-width: 423px;
+  width: 100%;
+  background: #f2f2f2;
+  border-radius: 11.139px;
+}
+
+.ft-new-wrap {
+  margin-top: 74px;
+}
+
+.ft-new-wrap-top {
+  display: flex;
+  align-items: center;
+}
+
+.ft-logo {
+  border-right: 2px solid #fff;
+  padding-right: 17px;
+
+  img {
+    width: 148px;
+  }
+}
+
+.ft-info-text {
+  padding-left: 17px;
+  max-width: 258px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.ft-new-wrap-bottom {
+  margin-top: 39px;
+  max-width: 208px;
+  width: 100%;
+}
+
+.ft-adres {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.ft-social-wrap {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.apis-logo {
+  margin: 0;
+  padding: 0;
+  width: 148px;
+  height: auto;
+}
+
+@media only screen and (min-width: 410px) {
+  .ft-text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+@media only screen and (min-width:786px) {
+  .ft-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+  }
+}
